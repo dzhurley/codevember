@@ -2,7 +2,7 @@
 
 ## Prompts:
 
-- [ ] Contrast
+- [X] Contrast
 - [ ] Geometric
 - [ ] Deep
 - [ ] Big

@@ -1,0 +1,21 @@
+{
+  "name": "codevember",
+  "version": "1.0.0",
+  "description": "## Prompts:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-sketch": "0.7.4",
+    "three": "0.122.0"
+  },
+  "devDependencies": {
+    "eslint": "7.12.1",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.1"
+  }
+}
