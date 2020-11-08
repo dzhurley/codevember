@@ -12,6 +12,7 @@
   "dependencies": {
     "canvas-sketch": "0.7.4",
     "canvas-sketch-util": "1.10.0",
+    "mapbox-gl": "1.12.0",
     "p5": "1.1.9",
     "three": "0.122.0"
   },
