@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid white;
+    background: white;
+}
+
+.hole {
+    position: absolute;
+    bottom: 16%;
+    left: 38%;
+    transform: translateX(-50%);
+    width: 6rem;
+    height: 2rem;
+    background: lightblue;
+    border-radius: 50%;
+}
+
+.bucket {
+    position: absolute;
+    bottom: 20%;
+    left: 77%;
+    transform: translateX(-50%);
+    width: 2rem;
+    height: 2rem;
+    background: orange;
+}
+
+.line {
+    position: absolute;
+    bottom: 23%;
+    left: 36%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 6.3rem;
+    background: black;
+}
+
+.legs {
+    position: absolute;
+    bottom: 18%;
+    left: 74%;
+    transform: translateX(-50%);
+    width: 2rem;
+    height: 2rem;
+    border: 10px solid;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 2rem;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.torso {
+    position: absolute;
+    bottom: 33%;
+    left: 80%;
+    transform: translateX(-50%);
+    width: 0.75rem;
+    height: 4rem;
+    background: black;
+}
+
+.arms {
+    position: absolute;
+    bottom: 41%;
+    left: 72%;
+    transform: translateX(-50%) rotate(52deg);
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 10px solid;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 1rem;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: black;
+    border-bottom-color: black;
+}
+
+.head {
+    position: absolute;
+    bottom: 50%;
+    left: 70%;
+    background: black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.rod {
+    position: absolute;
+    bottom: 5%;
+    left: 11%;
+    border-radius: 50%;
+    border: 1px solid;
+    border-top-color: black;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 9rem;
+    height: 9rem;
+    transform: rotate(35deg);
+}
