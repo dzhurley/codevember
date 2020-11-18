@@ -17,6 +17,7 @@
     "d3-scale-chromatic": "2.0.0",
     "mapbox-gl": "1.12.0",
     "p5": "1.1.9",
+    "randomcolor": "0.6.2",
     "three": "0.122.0"
   },
   "devDependencies": {
