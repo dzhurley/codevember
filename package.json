@@ -15,6 +15,7 @@
     "canvas-sketch-util": "1.10.0",
     "d3-scale": "3.2.3",
     "d3-scale-chromatic": "2.0.0",
+    "date-fns": "2.16.1",
     "mapbox-gl": "1.12.0",
     "p5": "1.1.9",
     "randomcolor": "0.6.2",
