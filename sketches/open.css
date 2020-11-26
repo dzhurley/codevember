@@ -1,0 +1,94 @@
+:root {
+    --top-back: red;
+    --bottom-back: #2695ff;
+}
+
+@font-face{
+    font-family: 'Neoneon';
+    font-display: swap;
+    src: url('./Neoneon-3zaD6.otf');
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    background: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Neoneon';
+    font-size: 8rem;
+}
+
+.sign {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.top, .bottom {
+    line-height: 1;
+    will-change: opacity;
+}
+
+.top {
+    letter-spacing: 10px;
+    color: white;
+    text-shadow:
+        0 0 10px var(--top-back),
+        0 0 20px var(--top-back),
+        0 0 40px var(--top-back),
+        0 0 100px var(--top-back),
+        0 0 200px var(--top-back),
+        0 0 300px var(--top-back),
+        0 0 500px var(--top-back),
+        0 0 1000px var(--top-back);
+    animation: blink 4s infinite alternate;
+}
+.bottom {
+    letter-spacing: -12px;
+    color: white;
+    text-shadow:
+        0 0 10px var(--bottom-back),
+        0 0 20px var(--bottom-back),
+        0 0 40px var(--bottom-back),
+        0 0 100px var(--bottom-back),
+        0 0 200px var(--bottom-back),
+        0 0 300px var(--bottom-back),
+        0 0 500px var(--bottom-back);
+    animation: buzz 0.01s infinite alternate;
+}
+
+@keyframes buzz {
+    70% {
+        opacity: 0.80;
+    }
+}
+
+@keyframes blink {
+    40% {
+        opacity: 1;
+    }
+    42% {
+        opacity: 0.8;
+    }
+    43% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0.2;
+    }
+    46% {
+        opacity: 1;
+    }
+}
